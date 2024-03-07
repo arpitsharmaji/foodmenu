@@ -5,7 +5,7 @@
 }
 
 .container{
-/*     height: 100vh; */
+    /* height: 100vh; */
     width: 100vw;
     overflow-x: none;
     background-color: #e2e5e8;
@@ -36,7 +36,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position:fixed;
+    /* overflow: hidden; */
 }
 
 .navcontainer #navlogo:hover{
@@ -53,10 +54,12 @@
 #navlist{
     padding: 15px;
     list-style: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: space-around;
+    /* gap: 40px; */
 }
+
 
 #navlist li a{
     margin-left: 40px;
@@ -104,6 +107,7 @@ a{
 }
 
 .contentbox{
+    padding-top: 100px;
     width: 50%;
     margin:auto;
     border: 1px solid black;
@@ -216,6 +220,7 @@ h2{
 
     #navlist li{
         text-align: center;
+        gap: 5px;
     }
     .contentbox{
         width: 85%;
@@ -239,10 +244,9 @@ h2{
         font-size: 1rem;
     }
 
+
     #navlist li a{
-    margin-left: 7px;
+        margin-left: 7px;
     }
-
-
-    
 }
+
