@@ -58,6 +58,10 @@
     justify-content: space-around;
 }
 
+#navlist li a{
+    margin-left: 40px;
+}
+
 
 #navlogo{
     color: beige;
