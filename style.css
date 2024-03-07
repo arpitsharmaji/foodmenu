@@ -233,6 +233,11 @@ h2{
 
     .footerbox p{
         font-size: 1rem;
+    }
+
+    #navlist li a{
+    margin-left: 7px;
+    }
 
 
     
