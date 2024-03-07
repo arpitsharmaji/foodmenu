@@ -237,7 +237,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .navcontainer{
     width: 100%;
-    min-height: 6rem;
+    height: 6rem;
     /* height: 20%; */
     /* background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
@@ -278,6 +278,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     font-size: 2.5rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 
@@ -303,6 +304,7 @@ a{
 #navItems{
     display: flex;
     gap: 40px;
+    font-size: 2rem;
 
 }
 #mainmenu{
@@ -326,13 +328,14 @@ a{
         align-items: center;
     }
     .navcontainer{
-        min-height: 1.10rem;
+        height: 1.10rem;
         position: fixed;
     }
 
     #navItems{
         display: flex;
         gap: 7px;
+        /* align-items: center; */
 
     }
     nav{
@@ -344,4 +347,9 @@ a{
     #navlist li{
         text-align: center;
     }
+
+    /* #navlist li a{
+        align-items: center;
+    } */
 }
+
